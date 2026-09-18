@@ -6,6 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portal Social ISCERL — Instituto sociocultural e educacional raízes da Liberdade. Ações sociais, projetos comunitários, voluntariado e transparência.">
   <link rel="icon" type="image/png" href="assets/img/logo.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://santossauloromario-cmyk.github.io/">
+  <meta property="og:title" content="Portal Social ISCERL">
+  <meta property="og:description" content="Instituto sociocultural e educacional raízes da Liberdade. Ações sociais, projetos comunitários, voluntariado e transparência.">
+  <meta property="og:image" content="https://santossauloromario-cmyk.github.io/assets/img/logo.png">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Portal Social ISCERL">
+  <meta name="twitter:description" content="Instituto sociocultural e educacional raízes da Liberdade. Ações sociais, projetos comunitários, voluntariado e transparência.">
+  <meta name="twitter:image" content="https://santossauloromario-cmyk.github.io/assets/img/logo.png">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -68,12 +79,12 @@
             <span style="color: var(--muted);">Carrossel</span>
           </div>
           <div class="hero-carousel">
-            <div class="hero-slide active" style="background-image:url('assets/img/voluntarios1.jpg')"><span>Voluntários ajudando crianças</span></div>
-            <div class="hero-slide" style="background-image:url('assets/img/voluntarios2.jpg')"><span>Voluntários ajudando crianças</span></div>
-            <div class="hero-slide" style="background-image:url('assets/img/oficina1.jpg')"><span>Oficinas de capacitação e geração de renda</span></div>
-            <div class="hero-slide" style="background-image:url('assets/img/oficina2.jpg')"><span>Oficinas de capacitação e geração de renda</span></div>
-            <div class="hero-slide" style="background-image:url('assets/img/evento1.jpg')"><span>Ações comunitárias e eventos culturais</span></div>
-            <div class="hero-slide" style="background-image:url('assets/img/evento2.jpg')"><span>Ações comunitárias e eventos culturais</span></div>
+            <div class="hero-slide active" role="img" aria-label="Voluntários ajudando crianças" style="background-image:url('assets/img/voluntarios1.jpg')"><span aria-hidden="true">Voluntários ajudando crianças</span></div>
+            <div class="hero-slide" role="img" aria-label="Voluntários ajudando crianças" style="background-image:url('assets/img/voluntarios2.jpg')"><span aria-hidden="true">Voluntários ajudando crianças</span></div>
+            <div class="hero-slide" role="img" aria-label="Oficinas de capacitação e geração de renda" style="background-image:url('assets/img/oficina1.jpg')"><span aria-hidden="true">Oficinas de capacitação e geração de renda</span></div>
+            <div class="hero-slide" role="img" aria-label="Oficinas de capacitação e geração de renda" style="background-image:url('assets/img/oficina2.jpg')"><span aria-hidden="true">Oficinas de capacitação e geração de renda</span></div>
+            <div class="hero-slide" role="img" aria-label="Ações comunitárias e eventos culturais" style="background-image:url('assets/img/evento1.jpg')"><span aria-hidden="true">Ações comunitárias e eventos culturais</span></div>
+            <div class="hero-slide" role="img" aria-label="Ações comunitárias e eventos culturais" style="background-image:url('assets/img/evento2.jpg')"><span aria-hidden="true">Ações comunitárias e eventos culturais</span></div>
           </div>
           <div class="hero-media-dots">
             <button class="dot active" aria-label="Slide 1"></button>
@@ -254,6 +265,7 @@
           <form id="volForm" class="vol-form" action="https://formspree.io/Cassiomoncorvo@hotmail.com" method="POST" novalidate>
             <div class="vol-form-inner">
               <input type="hidden" name="_subject" value="Novo Cadastro de Voluntário - ISCERL">
+              <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 
               <div class="field">
                 <label for="nome">Nome Completo</label>
